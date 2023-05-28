@@ -1,0 +1,134 @@
+.btn {
+  text-decoration: none;
+
+  margin: 20px;
+  display: inline-block;
+  padding: 20px;
+  background-image: linear-gradient(
+    92.88deg,
+    #439f76 9.16%,
+    #12c998 43.89%,
+    #16ffbd 64.72%
+  );
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  /* padding: 0 1.6rem; */
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  /* color: red; */
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+
+.header {
+  text-align: center;
+  background-color: #f070a1;
+  padding: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #16ffbd;
+}
+
+.container .msnormal {
+  padding: 15px;
+  background-color: #c34271;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.nav {
+  position: absolute;
+  bottom: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.buttons {
+  /* margin-bottom: 30px; */
+}
+
+.container {
+  padding: 25px;
+}
+
+.container .epx4 {
+  width: 150px;
+  margin: 10px;
+}
+
+/* button {
+  background-color: transparent;
+  border: 1px solid #266db6;
+  box-sizing: border-box;
+  color: #00132c;
+  font-family: "Avenir Next LT W01 Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:active {
+  outline: 0;
+}
+
+button:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:before {
+  background-color: #d5edf6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+button:hover:before {
+  background-color: #6dcff6;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 16px 32px;
+  }
+}
+
+body {
+  padding: 15px;
+  /* display: flex; */
+/* justify-content: center; */
