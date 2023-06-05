@@ -61,7 +61,7 @@ body {
 
 .nav {
   position: absolute;
-  bottom: 500px;
+  bottom: 375px;
   left: 50%;
   transform: translateX(-50%);
 }
